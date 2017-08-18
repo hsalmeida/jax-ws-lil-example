@@ -1,8 +1,8 @@
 # jax-ws-lil-example
 
-lembrete
+## lembrete
 
-tem que adicionar as seguintes libs dentro do endorsed do jboss
+### tem que adicionar as seguintes libs dentro do endorsed do jboss
 - jboss-saaj.jar, ta no server/all/lib
 - jboss-jaxws.jar, ta no server/all/lib
 - jboss-jaxrpc.jar, ta no server/all/lib
@@ -11,7 +11,7 @@ tem que adicionar as seguintes libs dentro do endorsed do jboss
 - xalan.jar, java deve ter
 - serializer.jar, java deve ter
 
-algumas urls
+## algumas urls
 http://www.mkyong.com/webservices/jax-ws/jax-ws-hello-world-example/
 https://www.mkyong.com/tutorials/jax-ws-tutorials/?utm_source=mkyong&utm_medium=author&utm_campaign=related-post&utm_content=8
 https://developer.jboss.org/wiki/JBossWS-JAX-WSTools
