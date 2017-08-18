@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="AdaptadorITP" version="2.5"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>Solicitacao</servlet-name>
+		<servlet-class>br.com.embratel.itp.ws.SolicitacaoWS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Solicitacao</servlet-name>
+		<url-pattern>/Solicitacao</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>br.com.embratel.itp.ws.UpdateWS</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/Update</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
